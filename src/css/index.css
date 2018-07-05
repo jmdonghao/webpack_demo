@@ -1,0 +1,10 @@
+body{
+    background-color: pink;
+    color: black;
+}
+
+img{
+    background-image: url(../img/test.jpg);
+    width:466px;
+    height:453px;
+}

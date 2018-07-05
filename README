@@ -1,0 +1,30 @@
+  --局部安装webpack-cli
+ cnpm install webpack-cli -D
+
+
+cnpm install webpack-dev-server --save-dev
+
+cnpm i open-browser-webpack-plugin --save
+
+cnpm install clean-webpack-plugin --save-dev
+
+cnpm install html-webpack-plugin --save-dev
+
+cnpm install file-loader css-loader style-loader sass-loader ejs-loader html-loader jsx-loader image-webpack-loader --save-dev
+
+cnpm install --save-dev html-webpack-plugin
+
+
+cnpm install -D babel-loader
+cnpm install -D babel-core
+cnpm install -D babel-preset-env
+
+//　上面的设置告诉npm本项目将使用babel，并且使用bable-preset-env规则进行转码，即实现对ES2015+语法进行转码。
+除此之外，还有第二种方式，即通过.babelrc文件。在项目根目录下新建.babelrc文件，里面只需输入第一种方式中”babel”属性的值即可：
+
+{
+  "presets": ["env"]
+}
+
+//图片打包解析
+cnpm install --save-dev file-loader url-loader
