@@ -19,7 +19,7 @@ cnpm install file-loader css-loader style-loader sass-loader ejs-loader html-loa
 
 cnpm install --save-dev html-webpack-plugin
 
-
+--安装loader
 cnpm install -D babel-loader
 cnpm install -D babel-core
 cnpm install -D babel-preset-env
