@@ -1,7 +1,9 @@
-  --局部安装webpack-cli
- cnpm install webpack-cli -D
+npm init  初始化npm
 
+--局部安装webpack-cli
+cnpm install webpack-cli -D
 
+--安装依赖包
 cnpm install webpack-dev-server --save-dev
 
 cnpm i open-browser-webpack-plugin --save
